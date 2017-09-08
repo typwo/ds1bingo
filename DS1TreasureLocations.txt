@@ -301,7 +301,7 @@ Red Titanite Slab
 
 Sanctuary Garden (0):
 
-#Nothing
+# Nothing
 
 Oolacile Sanctuary (1):
 
