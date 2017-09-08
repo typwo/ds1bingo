@@ -1,0 +1,9 @@
+Data Structures
+  Locations (These are major locations, such as Firelink, Catacombs, Undead Parish)
+  Bonfires (Categorized by warpable/non-warpable)
+  Items (Categorized by major type and minor type)
+  Sets (Parent of items, represents a group of items)
+  NPCs (Anyone you can initiate dialog with)
+  Enemies (Categorized by type, any enemy without a boss bar)
+  Covenants (Self-explanatory)
+  Transitions (Foggates, doors, elevators, maybe ladders?)
