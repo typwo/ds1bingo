@@ -5,5 +5,8 @@ Data Structures
   Sets (Parent of items, represents a group of items)
   NPCs (Anyone you can initiate dialog with)
   Enemies (Categorized by type, any enemy without a boss bar)
+  Bosses (Self-explanatory)
   Covenants (Self-explanatory)
   Transitions (Foggates, doors, elevators, maybe ladders?)
+  
+
