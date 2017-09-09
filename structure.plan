@@ -10,11 +10,23 @@ Data Structures
   Transitions (Foggates, doors, elevators, maybe ladders?)
 
 Bingo Squares to Avoid
-  Start as <Class>
-  Only use <Attack Type>
-  Only use <Weapon> at +0
+  Start as <class>
+  Only use <attack type>
+  Only use <weapon> at +0
 
 Generic Goals
   Defeat <boss>
   Kill <unique enemy>
-  Kill <NPC>  
+  Kill <npc>  
+
+Gathering/Elimination Goals
+  At least <x> of <item|bonfire>
+  All of <item|bonfire> in <area>
+  Kill all <non-respawning enemy> ?(in <area>)
+   
+Restriction Goals
+  Don't enter <area>
+  Don't use <illusorywall|ladder|foggate|door> ?(in <area>)
+  Don't defeat <boss>
+  Don't talk to (<npc>||<allnpcs>)
+  
