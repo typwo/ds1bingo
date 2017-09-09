@@ -20,13 +20,13 @@ Generic Goals
   Defeat <boss>
   Kill <unique enemy>
   Kill <npc>
-  (Use|Open) <bonfire|door>
+  (Use|Open) <bonfire|door|foggate|illusorywall>
   Obtain <n> souls ?(before <area|boss>)
 
 Gathering/Elimination Goals
   At least <n> of <item|bonfire>
   All of <item|set|bonfire> in <area>
-  Kill all <non-respawning enemy> ?(in <area>)
+  Kill all <enemy|uniqueenemy> ?(in <area>)
    
 Restriction Goals
   Don't enter <area> ?(before <area>)
