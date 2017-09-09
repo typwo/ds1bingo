@@ -12,14 +12,16 @@ Data Structures
 Bingo Squares to Avoid
   Start as <class>
   Only use <attack type>
-  Only use <weapon> at +0
+  Only use <weapon> at +<n> upgrade
   Never use <glitch|action>
+  "Use what you see" type stuff
 
 Generic Goals
   Defeat <boss>
   Kill <unique enemy>
   Kill <npc>
   (Use|Open) <bonfire|door>
+  Obtain <n> souls ?(before <area|boss>)
 
 Gathering/Elimination Goals
   At least <n> of <item|bonfire>
@@ -31,6 +33,7 @@ Restriction Goals
   Don't use <illusorywall|ladder|foggate|door|elevator> ?(in <area>)
   Don't defeat <boss>
   Don't talk to <npc|allnpcs>
+  No master key
   
 Sequence Goals
   Get caught by Seath and escape prison
