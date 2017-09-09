@@ -29,7 +29,7 @@ Gathering/Elimination Goals
   Kill all <non-respawning enemy> ?(in <area>)
    
 Restriction Goals
-  Don't enter <area>
+  Don't enter <area> ?(before <area>)
   Don't use <illusorywall|ladder|foggate|door|elevator> ?(in <area>)
   Don't defeat <boss>
   Don't talk to <npc|allnpcs>
