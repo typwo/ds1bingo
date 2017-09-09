@@ -13,20 +13,25 @@ Bingo Squares to Avoid
   Start as <class>
   Only use <attack type>
   Only use <weapon> at +0
+  Never use <glitch|action>
 
 Generic Goals
   Defeat <boss>
   Kill <unique enemy>
-  Kill <npc>  
+  Kill <npc>
+  (Use|Open) <bonfire|door>
 
 Gathering/Elimination Goals
-  At least <x> of <item|bonfire>
-  All of <item|bonfire> in <area>
+  At least <n> of <item|bonfire>
+  All of <item|set|bonfire> in <area>
   Kill all <non-respawning enemy> ?(in <area>)
    
 Restriction Goals
   Don't enter <area>
-  Don't use <illusorywall|ladder|foggate|door> ?(in <area>)
+  Don't use <illusorywall|ladder|foggate|door|elevator> ?(in <area>)
   Don't defeat <boss>
-  Don't talk to (<npc>||<allnpcs>)
+  Don't talk to <npc|allnpcs>
   
+Sequence Goals
+  Get caught by Seath and escape prison
+  See <quest> out to <quest milestone>
