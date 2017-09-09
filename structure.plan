@@ -3,7 +3,7 @@ Data Structures
   Bonfires (Categorized by warpable/non-warpable)
   Items (Categorized by major type and minor type)
   Sets (Parent of items, represents a group of items)
-  NPCs (Anyone you can initiate dialog with)
+  NPCs (Anyone you can initiate dialog with, excludes bosses)
   Enemies (Categorized by type, any enemy without a boss bar)
   Bosses (Self-explanatory)
   Covenants (Self-explanatory)
@@ -46,7 +46,7 @@ Other Goals
   Join <covenant> to <rank>
 
 Some additional notes:
-  * Don't go human
+  * Need to be able to go human for NPC invasions
   * Don't engage in online-play functionality outside of messages
   * Should "Kiln Glitch" like skips (wrong warps) be allowed? Would be interesting in scenarios 
     like "Obtain BKH in Kiln of First Flame", if we were to add something like that.
