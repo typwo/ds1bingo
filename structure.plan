@@ -1,14 +1,14 @@
 Data Types For Progression Logic
-  Locations (These are major locations, such as Firelink, Catacombs, Undead Parish)
+  Enemies (Categorized by type, any enemy without a boss bar)
+  Bosses (Self-explanatory)
   Bonfires (Categorized by warpable/non-warpable)
   Items (Categorized by major type and minor type)
   Sets (Parent of items, represents a group of items)
-  NPCs (Anyone you can initiate dialog with, excludes bosses)
-  Enemies (Categorized by type, any enemy without a boss bar)
-  Bosses (Self-explanatory)
-  Covenants (Self-explanatory)
+  NPCs (Anyone you can initiate dialog with, excludes bosses)  
   Transitions (Foggates, doors, elevators, maybe ladders?, bridges in Catacombs?)
-
+  Covenants (Self-explanatory)
+  Locations (These are major locations, such as Firelink, Catacombs, Undead Parish)
+  
 Bingo Squares to Avoid
   Start as <class>
   Only use <attack type>
