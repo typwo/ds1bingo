@@ -1,0 +1,108 @@
+# Restrictions
+
+@restrictions
+Don't enter Blighttown {!areaBlighttown, !areaGreatHollow, !areaAshLake}
+Don't defeat Capra Demon {!defeatCapraDemon}
+Don't defeat Asylum Demon 
+Don't defeat Demon Firesage {!defeatDemonFiresage}
+Don't defeat Ceaseless Discharge
+Don't defeat Taurus Demon
+Never talk to an NPC {!talkNPC}
+Never open a locked door in Lordran {!useKey}
+
+# Minimum goals
+
+@minimum
+At least 5 firekeeper souls
+At least 8 Crystal Lizards
+At least 4 Black Knights
+At least 5 Mimics
+Activate at least 8 warpable bonfires
+Light at least 15 bonfires
+Kindle at least 5 bonfires to maximum 
+At least 5 Embers
+At least 5 Divine Blessings
+Reveal at least 5 illusory walls
+
+# NPC goals
+
+@npc 
+Free Laurentius {talkNPC}
+Free Logan {talkNPC}
+Free Griggs {talkNPC}
+Rescue Rhea in Tomb of the Giants {talkNPC}
+Send Ingward to Firelink {talkNPC}
+Kill the Female Undead Merchant
+Summon Dusk in Darkroot {killHydra}
+
+# All <x> goals
+
+@all 
+All Crystal Lizards in Great Hollow {areaGreatHollow}
+All Crystal Lizards in Royal Wood {areaRoyalWood}
+All bonfires lit in Anor Londo
+All bonfires lit in Izalith
+All 3 Giant Felines
+All 4 Golden Crystal Golems
+All 6 Necromancers
+All 8 Mimics
+
+# Defeat/Kill goals
+
+@kill
+Defeat Four Kings
+Defeat Gaping Dragon
+Defeat Iron Golem
+Defeat Demon Firesage {defeatDemonFiresage}
+Defeat Manus
+Defeat Moonlight Butterfly
+Defeat Centipede Demon
+Kill Both Undead Dragons
+Kill Both Hydras {areaBlighttown, areaGreatHollow, areaAshLake} 
+Kill Both Masses of Souls (New Londo)
+Kill Both non-respawning Sen's Giants
+Kill Hellkite Drake
+Kill Parasitic Wall Hugger
+Kill Giant Rat
+Kill Hydra
+Defeat Lautrec in Anor Londo
+
+# Obtain <x>
+
+@obtain
+Obtain Kirk's Set
+Obtain Leeroy's Set
+Obtain Eastern Set
+Obtain Butcher Knife
+Obtain Avelyn
+Obtain Light Crossbow
+Obtain Gold and Dark Silver Tracer
+Obtain All 5 Carvings
+Obtain Large Ember
+Obtain Large Divine Ember
+Obtain Divine Ember
+Obtain Enchanted Ember
+Obtain Large Magic Ember
+Obtain Very Large Ember
+Obtain Dark Ember
+Obtain Crystal Ember
+Obtain Chaos Flame Ember
+Obtain Large Flame Ember
+Obtain Whip {areaBlighttown}
+Obtain Notched Whip
+Obtain Hammer of Vamos
+Obtain Sunlight Straight Sword
+Obtain Moonlight Greatsword
+Obtain Velka's Rapier
+Obtain Dragon Greatsword
+Obtain Uchigatana & Iaito {areaBlighttown}
+Obtain Power Within {areaBlighttown}
+
+# Other Goals
+
+@other
+Trade 5 items with Snuggly the crow
+Get caught by Seath and escape the prison
+Open the Big Cathedral Gate in Anor Londo
+Open the Chaos Servant Shortcut
+Activate the Cage Elevator in Sen's Fortress {useKey}
