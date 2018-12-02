@@ -3,7 +3,7 @@
 @restrictions
 Don't enter Blighttown {!areaBlighttown, !areaGreatHollow, !areaAshLake}
 Don't defeat Capra Demon {!defeatCapraDemon}
-Don't defeat Asylum Demon 
+Don't defeat Asylum Demon
 Don't defeat Demon Firesage {!defeatDemonFiresage}
 Don't defeat Ceaseless Discharge
 Don't defeat Taurus Demon
@@ -19,33 +19,36 @@ At least 4 Black Knights
 At least 5 Mimics
 Activate at least 8 warpable bonfires
 Light at least 15 bonfires
-Kindle at least 5 bonfires to maximum 
+Kindle at least 5 bonfires to maximum
 At least 5 Embers
 At least 5 Divine Blessings
 Reveal at least 5 illusory walls
 
 # NPC goals
 
-@npc 
+@npc
 Free Laurentius {talkNPC}
 Free Logan {talkNPC}
 Free Griggs {talkNPC}
 Rescue Rhea in Tomb of the Giants {talkNPC}
 Send Ingward to Firelink {talkNPC}
 Kill the Female Undead Merchant
-Summon Dusk in Darkroot {killHydra}
+Summon Dusk in Darkroot {killHydra, talkNPC}
+Talk to Quelana in Blighttown {areaBlighttown, talkNPC}
+Talk to all 4 blacksmiths {talkNPC}
 
 # All <x> goals
 
-@all 
-All Crystal Lizards in Great Hollow {areaGreatHollow}
-All Crystal Lizards in Royal Wood {areaRoyalWood}
-All bonfires lit in Anor Londo
-All bonfires lit in Izalith
-All 3 Giant Felines
-All 4 Golden Crystal Golems
-All 6 Necromancers
-All 8 Mimics
+@all
+All Crystal Lizards (10) in Great Hollow {areaGreatHollow}
+All Crystal Lizards (3) in Royal Wood {areaRoyalWood}
+All bonfires lit (4) in Anor Londo
+All bonfires lit (3) in Izalith
+All bonfires lit (3) in Duke's Archives
+Kill all 3 Giant Felines
+Kill all 4 Golden Crystal Golems
+Kill all 6 Necromancers
+Kill all 8 Mimics
 
 # Defeat/Kill goals
 
@@ -58,7 +61,7 @@ Defeat Manus
 Defeat Moonlight Butterfly
 Defeat Centipede Demon
 Kill Both Undead Dragons
-Kill Both Hydras {areaBlighttown, areaGreatHollow, areaAshLake} 
+Kill Both Hydras {areaBlighttown, areaGreatHollow, areaAshLake}
 Kill Both Masses of Souls (New Londo)
 Kill Both non-respawning Sen's Giants
 Kill Hellkite Drake
@@ -73,7 +76,7 @@ Defeat Lautrec in Anor Londo
 Obtain Kirk's Set
 Obtain Leeroy's Set
 Obtain Eastern Set
-Obtain Butcher Knife
+Obtain Butcher Knife {areaBlighttown}
 Obtain Avelyn
 Obtain Light Crossbow
 Obtain Gold and Dark Silver Tracer
@@ -95,6 +98,7 @@ Obtain Sunlight Straight Sword
 Obtain Moonlight Greatsword
 Obtain Velka's Rapier
 Obtain Dragon Greatsword
+Obtain Knight rings (Hornet, Wolf, Hawk, Leo)
 Obtain Uchigatana & Iaito {areaBlighttown}
 Obtain Power Within {areaBlighttown}
 
