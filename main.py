@@ -40,7 +40,7 @@ def route_bingo(seed=None):
     goals = []
 
     if seed_file.is_file():
-      with open(seed_file) as f:
+      with open(str(seed_file)) as f:
         lines = f.read().splitlines()
       for l in lines:
         bingo_goalset.append(l)
@@ -66,19 +66,19 @@ def route_bingo(seed=None):
     )
   else:
     seed = randint(1000000, 9999999)
-    return redirect('http://arcandpoint.com/ds1bingo/{0}'.format(seed),
+    return redirect('http://{0}/ds1bingo/{1}'.format(SERVER_BASE, seed),
       code=302
     )
 
 app.route('/ds1bingo/lockout/<seed>')
 def route_lockout(seed=None):
-  return redirect('http://arcandpoint.com/ds1bingo',
+  return redirect('http://{0}/ds1bingo'.format(SERVER_BASE),
     code=302
   )
 
 app.route('/ds1bingo/team/<seed>')
 def route_team(seed=None):
-  return redirect('http://arcandpoint.com/ds1bingo',
+  return redirect('http://{0}/ds1bingo'.format(SERVER_BASE),
     code=302
   )
 
